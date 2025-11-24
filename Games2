@@ -256,7 +256,7 @@
 
                     // Populate summary table
                     const dataBody = document.getElementById('data-body');
-                    for (let i = 3; i < Math.min(entries.length, 36); i++) {
+                    for (let i = 3; i < Math.min(entries.length, 37); i++) {
                         const position = entries[i][0].trim();
                         const playerName = entries[i][1].trim();
                         const gamesPlayed = entries[i][2].trim();
